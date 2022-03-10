@@ -1,0 +1,5 @@
+kubectl scale deployment <deployment-name> --replicas=2
+or
+edit the yaml file with values replicas=2
+and
+kubectl apply -f <filename.yaml>
